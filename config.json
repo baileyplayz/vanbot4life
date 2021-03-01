@@ -1,0 +1,8 @@
+{
+  "prefix": "-",
+  "welcomemsg": true,
+  "automod": true,
+  "nocommunity": false,
+  "automodpunishment": "warn",
+  "badwords": ["Fuck", "fuck", "Bitch", "bitch", "Asshole", "asshole","ass","Ass","nigga","Nigga","Nigger"]
+}
