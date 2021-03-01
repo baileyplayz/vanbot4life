@@ -15,7 +15,7 @@ leveling(client);
 client.login(process.env.TOKEN)
 
 client.on('ready', function() {
-    client.user.setActivity(`encode.gq | !help`, { type: 'LISTENING' });
+    client.user.setActivity(`VandineGamer | -help`, { type: 'LISTENING' });
     client.emit('debug', `client ready and listening to; ${client.guilds.cache.size} guilds and ${client.channels.cache.filter(c => c.type === 'text').size} channels.`);
 });
 
@@ -62,7 +62,6 @@ client.on("message", message => {
           .setTitle(`${client.user.username}'s command`)
           .setDescription(`**My Links!**`)
           .addField(`\`YouTube\``, `https://www.youtube.com/channel/UCfQyz30ggW7vBRoANwOLVug`)
-          .addField(`\`Coder\``\``, `VandineGamer#1722`)
         message.channel.send(helpEmbed)
     }
 
